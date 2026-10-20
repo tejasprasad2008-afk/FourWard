@@ -1,0 +1,8 @@
+{
+  "name": "@fourward/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Zod schemas and shared TypeScript types between FourWard cells and apps",
+  "main": "src/index.ts",
+  "types": "src/index.ts"
+}

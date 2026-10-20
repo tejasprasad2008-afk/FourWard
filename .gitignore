@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native
+*.orig.*
+[aA]ndroid/
+[iI]os/
+
+# Metro
+.metro-health-check*
+
+# Environment
+.env
+.env.local
+.env*.local
+
+# System
+.DS_Store
+*.log

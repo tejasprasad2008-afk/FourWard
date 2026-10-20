@@ -1,0 +1,20 @@
+{
+  "name": "@fourward/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "FourWard backend modular monolith (spine and cells)",
+  "scripts": {
+    "start": "node --experimental-strip-types src/server.ts",
+    "dev": "node --watch --experimental-strip-types src/server.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6"
+  }
+}

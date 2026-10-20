@@ -1,0 +1,17 @@
+{
+  "name": "fourward-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "npm --workspace=@fourward/mobile run start",
+    "mobile": "npm --workspace=@fourward/mobile run start",
+    "mobile:web": "npm --workspace=@fourward/mobile run web",
+    "check:design": "node scripts/check-design.js",
+    "test": "node --experimental-strip-types scripts/test-checkin.js",
+    "typecheck": "npm --workspace=@fourward/mobile run typecheck && npm --workspace=@fourward/api run typecheck"
+  }
+}

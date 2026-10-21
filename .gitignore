@@ -24,3 +24,8 @@ web-build/
 # System
 .DS_Store
 *.log
+
+# Agent & Workspace Rules (Local only)
+AGENTS.md
+.jules/
+.Jules/

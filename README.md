@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/brand/logo-lockup.png" width="300" alt="FourWard Hospital App" />
+  <img src="assets/images/brand/logo-lockup.png" width="300" alt="FourWard Hospital App" />
 </p>
 
 <p align="center">

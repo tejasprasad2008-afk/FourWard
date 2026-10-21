@@ -138,7 +138,7 @@ export function Button({
     <Pressable
       testID={testID}
       accessibilityRole="button"
-      accessibilityState={{ disabled: disabled || loading }}
+      accessibilityState={{ disabled: disabled || loading, busy: Boolean(loading) }}
       disabled={disabled || loading}
       onPress={onPress}
       onLayout={onLayout}

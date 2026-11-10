@@ -51,7 +51,7 @@ export function CheckInScreen() {
   const confettiAnim = useRef(new Animated.Value(0)).current;
   const [reducedMotion, setReducedMotion] = useState(false);
 
-  const inputRefs = useRef<Array<TextInput | null>>([]);
+  const inputRefs = useRef<Array<React.ComponentRef<typeof TextInput> | null>>([]);
 
   useEffect(() => {
     AccessibilityInfo.isReduceMotionEnabled()

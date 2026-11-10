@@ -142,7 +142,7 @@ export function Button({
       disabled={disabled || loading}
       onPress={onPress}
       onLayout={onLayout}
-      android_ripple={null}
+      android_ripple={undefined}
       style={({ pressed }) => {
         const c = getColors(pressed);
         const containerStyle: ViewStyle = {

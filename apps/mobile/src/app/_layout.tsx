@@ -35,7 +35,6 @@ function RootContent() {
   return (
     <>
       <Stack
-        initialRouteName="(tabs)"
         screenOptions={{
           headerShown: false,
           contentStyle: { backgroundColor: colors.bg },

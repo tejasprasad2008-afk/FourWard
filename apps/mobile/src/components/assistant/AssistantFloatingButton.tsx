@@ -68,7 +68,7 @@ export function AssistantFloatingButton() {
     },
   ]);
 
-  const inputRef = useRef<TextInput>(null);
+  const inputRef = useRef<React.ComponentRef<typeof TextInput>>(null);
 
   // Flow 1: Book a cardiologist (Dynamic from Family, Doctors, and Slots stores)
   const startCardiologistFlow = async () => {

@@ -9,7 +9,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-iOS%20%7C%20Android%20%7C%20Web-0E6B5C?style=flat-square" alt="Platform" />
-  <img src="https://img.shields.io/badge/Expo-SDK%2054-000000?style=flat-square&logo=expo" alt="Expo" />
+  <img src="https://img.shields.io/badge/Expo-SDK%2058-000000?style=flat-square&logo=expo" alt="Expo" />
   <img src="https://img.shields.io/badge/React%20Native-0.81-61DAFB?style=flat-square&logo=react" alt="React Native" />
   <img src="https://img.shields.io/badge/TypeScript-Strict-3178C6?style=flat-square&logo=typescript" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Architecture-Spine%20%26%20Cells-F0A202?style=flat-square" alt="Spine and Cells" />
